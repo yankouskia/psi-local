@@ -1,0 +1,27 @@
+{
+  "name": "psi-local",
+  "version": "1.0.0",
+  "description": "Tool for ability to use Google PageSpeed Insights locally",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yankouskia/psi-local.git"
+  },
+  "keywords": [
+    "PageSpeed",
+    "Insights"
+  ],
+  "author": "yankouskia aleksandr.yankovskiy@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yankouskia/psi-local/issues"
+  },
+  "homepage": "https://github.com/yankouskia/psi-local#readme",
+  "dependencies": {
+    "ngrok": "^2.2.21",
+    "psi": "^3.0.0"
+  }
+}
